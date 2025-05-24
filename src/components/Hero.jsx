@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 
 import img1 from "../images/homepage.jpg";
 import img2 from "../images/homepage.2.jpg";
-import img3 from "../images/homepage-3.jpg";
-// import video1 from "../video/100546-video-720.mp4";
-// import video2 from "../video/mixkit-52086-video-52086-hd-ready.mp4";
-// import video3 from "../video/mixkit-52088-video-52088-hd-ready.mp4";
- import video1 from "../video/mixkit-52086-video-52086-hd-ready.mp4";
-import video2 from "../video/WhatsApp Video 2025-05-24 at 09.55.00_7a449cd5.mp4";
-import video3 from "../video/WhatsApp Video 2025-05-24 at 09.55.02_cef34d6e.mp4";
-import video4 from "../video/100548-video-720.mp4";
+import img3 from "../images/467345860_868626418786647_2557558075871522365_n.webp";
+import img4 from "../images/468525663_17891251626124910_2461844413795903866_n.jpg";
+// // import video1 from "../video/100546-video-720.mp4";
+// // import video2 from "../video/mixkit-52086-video-52086-hd-ready.mp4";
+// // import video3 from "../video/mixkit-52088-video-52088-hd-ready.mp4";
+//  import video1 from "../video/mixkit-52086-video-52086-hd-ready.mp4";
+// import video2 from "../video/WhatsApp Video 2025-05-24 at 09.55.00_7a449cd5.mp4";
+// import video3 from "../video/WhatsApp Video 2025-05-24 at 09.55.02_cef34d6e.mp4";
+// import video4 from "../video/100548-video-720.mp4";
 
 export default function Hero({
   buttons = true,
@@ -20,32 +21,32 @@ export default function Hero({
 }) {
   const slides = [
     {
-      video: video1,
-      // image: img1,
+      // video: video1,
+      image: img1,
       title: "Push Your Limits",
       subtitle: "Strength & Power",
       description:
         "Unlock your full potential with guided workouts and expert tips.",
     },
     {
-      video: video2,
-      // image: img2,
+      // video: video2,
+      image: img2,
       title: "Train Like a Pro",
       subtitle: "Endurance Training",
       description:
         "Build stamina and improve your health with our elite programs.",
     },
     {
-      video: video3,
-      // image: img3,
+      // video: video3,
+      image: img3,
       title: "Shape Your Body",
       subtitle: "Fat Burn",
       description:
         "Join a community committed to fitness, health, and results.",
     },
     {
-      video: video4,
-      // image: img3,
+      // video: video4,
+      image: img4,
       title: "Unleash Your Inner Strength",
       subtitle: "Strenght & Power",
       description:
@@ -99,12 +100,12 @@ export default function Hero({
     >
       {/* Background Image and Overlay */}
       <div className="absolute inset-0 z-0 transition-all duration-1000 ease-in-out">
-        {/* <img
+        <img
           src={image}
           alt="Background"
           className="w-full h-full object-cover transition-opacity duration-1000"
-        /> */}
-        <video
+        />
+        {/* <video
           key={video}
           src={video}
           autoPlay
@@ -112,7 +113,7 @@ export default function Hero({
           muted
           playsInline
           className="w-full h-full object-cover transition-opacity duration-1000"
-        />
+        /> */}
         <div className={`absolute inset-0 bg-gradient-to-r ${overlay}`} />
       </div>
 
