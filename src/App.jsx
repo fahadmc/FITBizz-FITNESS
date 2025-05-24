@@ -2,7 +2,7 @@
 
 import { Routes, Route, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
-// import ScrollToTop from "./components/ScrollToTop"
+import ScrollToTop from "./components/ScrollToTop"
 
 // Pages
 import Home from "./pages/Home"
@@ -22,9 +22,10 @@ function App() {
 
   return (
     <>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
+          
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Workouts" element={<Workouts />} />
