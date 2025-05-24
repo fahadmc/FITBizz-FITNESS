@@ -4,10 +4,13 @@ import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
 
+
+
+
 export default function ClassCard({
   title= "Class Title",
   description="Class description goes here.",
-  image="/placeholder.svg",
+  image = "/images/placeholder.svg",
   color = "from-red-500 to-orange-500",
   delay = 0,
   link = "/Workouts",

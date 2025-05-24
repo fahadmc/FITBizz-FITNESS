@@ -1,5 +1,6 @@
 import { time } from "framer-motion";
 
+
 export const plans = [
   {
     name: "Basic",

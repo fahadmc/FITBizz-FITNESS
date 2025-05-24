@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react"
 export default function ClassCard2({
   title,
   description,
-  image,
+image = "/images/placeholder.svg",
   color = "from-red-500 to-orange-500",
   delay = 0,
   link = "/classes",
@@ -23,7 +23,7 @@ export default function ClassCard2({
     >
       <div className="relative h-64 w-full overflow-hidden">
         <img
-          src={image || "/placeholder.svg"}
+          src={image}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
