@@ -57,7 +57,7 @@ export const classes = [
   {
     title: "Powerlifting ",
     description: "Build maximum strength and improve muscle mass with expert powerlifting coaching.",
-    image: "/src/images/powerlift.png",
+    image: "src/images/456276578_1966133777185160_7505210778490332381_n.webp",
     category: "strength",
     color: "bg-black-50",
     schedule: [
