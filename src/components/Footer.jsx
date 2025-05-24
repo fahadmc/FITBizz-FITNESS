@@ -1,12 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import {  Instagram , ArrowRight } from "lucide-react";
-import timg1 from "/images/Threads-app-logo-white-png-transparent.png"
-import imgl from "/images/logofitbizz.png"
+import { Link, useNavigate } from "react-router-dom";
+import { Instagram, ArrowRight } from "lucide-react";
+import timg1 from "/images/Threads-app-logo-white-png-transparent.png";
+import imgl from "/images/logofitbizz.png";
+import { useState } from "react";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (!isValidEmail) {
+      setError("Please enter a valid email address.");
+    } else {
+      setError("");
+      navigate("/");
+    }
+  };
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom ">
@@ -27,14 +44,17 @@ export default function Footer() {
               <br />
               your fitness goals with expert guidance.
             </p>
-            <div className="flex space-x-4"> 
+            <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/fitbizzfitnessqa/"
                 className="bg-gray-800 hover:bg-red-500 p-2 rounded-full transition-colors duration-300"
               >
-                < Instagram size={20} />
+                <Instagram size={20} />
               </a>
-              <a href="https://www.threads.com/@fitbizzfitnessqa?xmt=AQF0k3aVpyGHdXbuwEJWvv0jhsbC63eRH--DCyELsz2cKhw" className="bg-gray-800 hover:bg-red-500 p-2 rounded-full transition-colors duration-300">
+              <a
+                href="https://www.threads.com/@fitbizzfitnessqa?xmt=AQF0k3aVpyGHdXbuwEJWvv0jhsbC63eRH--DCyELsz2cKhw"
+                className="bg-gray-800 hover:bg-red-500 p-2 rounded-full transition-colors duration-300"
+              >
                 <img src={timg1} alt="" />
                 {/* <MessageCircle  size={20} /> */}
               </a>
@@ -59,7 +79,7 @@ export default function Footer() {
                 { name: "Home", path: "/" },
                 { name: "About", path: "/about" },
                 { name: "Workouts", path: "/Workouts" },
-                { name: "Schedule", path: "/Schedule" },
+                // { name: "Schedule", path: "/Schedule" },
                 { name: "Classes", path: "/classes" },
                 { name: "Contact", path: "/contact" },
               ].map((item) => (
@@ -116,24 +136,26 @@ export default function Footer() {
             <form className="space-y-3">
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email address"
                 className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-red-500"
               />
-           <Link to="/">
-           <button
+              {error && <p className="text-red-500 text-sm">{error}</p>}
+              <button
                 type="submit"
                 className="w-full bg-red-500 hover:bg-red-600 text-white py-2.5 rounded-lg font-medium transition-colors duration-300"
               >
                 Subscribe
               </button>
-           </Link>   
             </form>
           </motion.div>
         </div>
 
         <div className="border-t border-gray-800 py-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} FITBIZZ FITNESS. All rights reserved.
+            &copy; {new Date().getFullYear()} FITBIZZ FITNESS. All rights
+            reserved.
           </p>
           {/* <div className="flex space-x-6 mt-4 md:mt-0">
             <Link
