@@ -4,13 +4,10 @@ import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
 
-
-
-
 export default function ClassCard({
   title= "Class Title",
   description="Class description goes here.",
-  image = "/images/placeholder.svg",
+  image="/placeholder.svg",
   color = "from-red-500 to-orange-500",
   delay = 0,
   link = "/Workouts",
@@ -24,11 +21,11 @@ export default function ClassCard({
       transition={{ duration: 0.6, delay }}
       viewport={{ once: true }}
       whileHover={{ y: -10, transition: { duration: 0.3 } }}
-      className="bg-gray-900 rounded-xl overflow-hidden group shadow-lg"
+      className="bg-gray-900 rounded-xl overflow-hidden group "
     >
       <div className="relative h-64 w-full overflow-hidden">
         <img
-          src={image}
+          src={image || "/placeholder.svg"}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />

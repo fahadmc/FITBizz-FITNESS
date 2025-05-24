@@ -58,7 +58,7 @@ export const classes = [
   {
     title: "Powerlifting ",
     description: "Build maximum strength and improve muscle mass with expert powerlifting coaching.",
-    image: "src/images/456276578_1966133777185160_7505210778490332381_n.webp",
+    image: "/images/powerlift.png",
     category: "strength",
     color: "bg-black-50",
     schedule: [
@@ -72,7 +72,7 @@ export const classes = [
   {
     title: "Cardio &  Endurance",
     description: "Boost your heart health and stamina with tailored cardio workouts.",
-    image: "/src/images/cardio.jpg",
+    image: "/images/cardio.jpg",
     category: "cardio",
     color: "bg-black-50",
     schedule: [
@@ -86,7 +86,7 @@ export const classes = [
   {
     title: "Personal Trainers",
     description: "Stay motivated and achieve results faster with personalized coaching.",
-    image: "src/images/prs-trainer.jpg",
+    image: "/images/prs-trainer.jpg",
     category: "flexibility",
     color: "bg-black-50",
     schedule: [
@@ -101,7 +101,7 @@ export const classes = [
   {
     title: "Body Building",
     description: "Boost confidence and improve overall health through dedicated training.",
-    image: "src/images/bdbuilder.jpg",
+    image: "/images/bdbuilder.jpg",
     category: "strength",
     color: "bg-black-50",
     schedule: [
@@ -115,7 +115,7 @@ export const classes = [
   {
     title: "Fat Loss Program",
     description: "Achieve a leaner, healthier body while boosting energy and metabolism.",
-    image: "src/images/ftless.jpg",
+    image: "/images/ftless.jpg",
     category: "cardio",
     color: "bg-black-50",
     schedule: [
@@ -129,7 +129,7 @@ export const classes = [
   {
     title: "Strenght Training",
     description: "Enhance endurance, boost metabolism, and support injury prevention.",
-    image: "src/images/strghth.jpg",
+    image: "/images/strghth.jpg",
     category: "strength",
     color: "bg-black-50",
     schedule: [
@@ -143,7 +143,7 @@ export const classes = [
   {
     title: "Group Training",
     description: "Enjoy expert guidance while building community and accountability.",
-    image: "src/images/grptrain.jpg",
+    image: "/images/grptrain.jpg",
     category: "flexibility",
     color: "bg-black-50",
     schedule: [
@@ -157,7 +157,7 @@ export const classes = [
   {
     title: "Nutrition Advices",
     description: "Learn healthy eating habits that boost energy and improve performance.",
-    image: "src/images/nutrition.jpg",
+    image: "/images/nutrition.jpg",
     category: "hiit",
     color: "bg-black-50",
     schedule: [
@@ -171,7 +171,7 @@ export const classes = [
   {
     title: "Certified & Friendly Staff",
     description: "Friendly support ensures a motivating and welcoming gym experience.",
-    image: "src/images/friendly.jpg",
+    image: "/images/friendly.jpg",
     category: "hiit",
     color: "bg-black-50",
     schedule: [
@@ -192,7 +192,7 @@ export const blogPosts = [
     id: "1",
     title: "Swimming Coaching",
     excerpt: "Learn the essential principles of strength training to build muscle and prevent injuries.",
-    image: "src/images/swimming.jpg",
+    image: "/images/swimming.jpg",
      time: "sat-Thu 04:00pm Ownward",
      color: "bg-black-50",
    
@@ -201,7 +201,7 @@ export const blogPosts = [
     id: "2",
     title: "Football Coaching",
     excerpt: "Fuel your body with the right nutrients for optimal performance and recovery.",
-    image: "src/images/football.jpg",
+    image: "/images/football.jpg",
     time: "sat- 04:00pm To 06:00pm ---- sun&Tue - 05:30pm To 07:00pm",
     color: "bg-black-50",
    
@@ -210,7 +210,7 @@ export const blogPosts = [
     id: "3",
     title: "Badminton Coaching",
     excerpt: "Improve mobility and reduce soreness with these effective stretching methods.",
-    image: "src/images/badminton.jpg",
+    image: "/images/badminton.jpg",
      time: "sun-Thu  04:00pm To 06:00pm ---- Fri&Sat - 02:00pm To 06:00pm",
      color: "bg-black-50",
   
