@@ -12,6 +12,8 @@ export default function ClassCard({
   delay = 0,
   link = "/Workouts",
 }) {
+
+  
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -23,7 +25,7 @@ export default function ClassCard({
     >
       <div className="relative h-64 w-full overflow-hidden">
         <img
-          src={image || "/placeholder.svg"}
+          src={image}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
