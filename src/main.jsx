@@ -5,14 +5,14 @@ import ReactDOM from "react-dom/client"
 import { BrowserRouter } from "react-router-dom"
 import App from "./App"
 import "./index.css"
-import { AnimatePresence } from "framer-motion"
+// import { AnimatePresence } from "framer-motion"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <AnimatePresence mode="wait">
+      {/* <AnimatePresence mode="wait"> */}
         <App />
-      </AnimatePresence>
+      {/* </AnimatePresence> */}
     </BrowserRouter>
   </React.StrictMode>,
 )
