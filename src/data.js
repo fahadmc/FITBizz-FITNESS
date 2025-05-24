@@ -1,58 +1,58 @@
 import { time } from "framer-motion";
 
 
-// export const plans = [
-//   {
-//     name: "Basic",
-//     price: 29,
-//     annualPrice: 25,
-//     features: [
-//       "Access to all gym equipment",
-//       "Locker room access",
-//       "1 Group class per week",
-//       "Mobile app access",
-//       "Free parking"
-//     ],
-//     excluded: [
-//       "Personal training",
-//       "Nutrition consultation",
-//       "Guest passes"
-//     ],
-//     popular: false
-//   },
-//   {
-//     name: "Premium",
-//     price: 59,
-//     annualPrice: 49,
-//     features: [
-//       "All Basic features",
-//       "Unlimited group classes",
-//       "3 Personal training sessions/month",
-//       "1 Nutrition consultation",
-//       "2 Guest passes/month"
-//     ],
-//     excluded: [
-//       "Additional personal training",
-//       "Extra guest passes"
-//     ],
-//     popular: true
-//   },
-//   {
-//     name: "Elite",
-//     price: 99,
-//     annualPrice: 79,
-//     features: [
-//       "All Premium features",
-//       "Unlimited personal training",
-//       "Monthly nutrition consultation",
-//       "5 Guest passes/month",
-//       "Priority booking",
-//       "Towel service"
-//     ],
-//     excluded: [],
-//     popular: false
-//   }
-// ];
+export const plans = [
+  {
+    name: "Basic",
+    price: 29,
+    annualPrice: 25,
+    features: [
+      "Access to all gym equipment",
+      "Locker room access",
+      "1 Group class per week",
+      "Mobile app access",
+      "Free parking"
+    ],
+    excluded: [
+      "Personal training",
+      "Nutrition consultation",
+      "Guest passes"
+    ],
+    popular: false
+  },
+  {
+    name: "Premium",
+    price: 59,
+    annualPrice: 49,
+    features: [
+      "All Basic features",
+      "Unlimited group classes",
+      "3 Personal training sessions/month",
+      "1 Nutrition consultation",
+      "2 Guest passes/month"
+    ],
+    excluded: [
+      "Additional personal training",
+      "Extra guest passes"
+    ],
+    popular: true
+  },
+  {
+    name: "Elite",
+    price: 99,
+    annualPrice: 79,
+    features: [
+      "All Premium features",
+      "Unlimited personal training",
+      "Monthly nutrition consultation",
+      "5 Guest passes/month",
+      "Priority booking",
+      "Towel service"
+    ],
+    excluded: [],
+    popular: false
+  }
+];
 
 export const classes = [
   {
@@ -219,80 +219,80 @@ export const blogPosts = [
 ];
 
 
-// export const testimonials = [
-//   {
-//     name: "Sarah Johnson",
-//     role: "Fitness Enthusiast",
-//     image: "/images/testimonials/sarah.jpg",
-//     rating: 5,
-//     quote: "Training here has completely changed my life. The coaches are motivating, knowledgeable, and truly care about your progress.",
-//   },
-//   {
-//     name: "Mark Thompson",
-//     role: "Athlete",
-//     image: "/images/testimonials/mark.jpg",
-//     rating: 4,
-//     quote: "Great environment and even better results. The trainers push you without making it feel overwhelming.",
-//   },
-//   {
-//     name: "Emily Davis",
-//     role: "Yoga Practitioner",
-//     image: "/images/testimonials/emily.jpg",
-//     rating: 5,
-//     quote: "I love the personalized approach. They helped me build a plan that works for my lifestyle and schedule.",
-//   },
-//   {
-//     name: "James Carter",
-//     role: "Beginner",
-//     image: "/images/testimonials/james.jpg",
-//     rating: 4,
-//     quote: "The support from the team is amazing. I never felt judged, only encouraged to do better each session.",
-//   },
-//   {
-//     name: "Olivia Martinez",
-//     role: "Weight Loss Journey",
-//     image: "/images/testimonials/olivia.jpg",
-//     rating: 5,
-//     quote: "I lost over 20 pounds with the help of the team here. The community and guidance are unmatched!",
-//   },
-// ]
+export const testimonials = [
+  {
+    name: "Sarah Johnson",
+    role: "Fitness Enthusiast",
+    image: "/images/testimonials/sarah.jpg",
+    rating: 5,
+    quote: "Training here has completely changed my life. The coaches are motivating, knowledgeable, and truly care about your progress.",
+  },
+  {
+    name: "Mark Thompson",
+    role: "Athlete",
+    image: "/images/testimonials/mark.jpg",
+    rating: 4,
+    quote: "Great environment and even better results. The trainers push you without making it feel overwhelming.",
+  },
+  {
+    name: "Emily Davis",
+    role: "Yoga Practitioner",
+    image: "/images/testimonials/emily.jpg",
+    rating: 5,
+    quote: "I love the personalized approach. They helped me build a plan that works for my lifestyle and schedule.",
+  },
+  {
+    name: "James Carter",
+    role: "Beginner",
+    image: "/images/testimonials/james.jpg",
+    rating: 4,
+    quote: "The support from the team is amazing. I never felt judged, only encouraged to do better each session.",
+  },
+  {
+    name: "Olivia Martinez",
+    role: "Weight Loss Journey",
+    image: "/images/testimonials/olivia.jpg",
+    rating: 5,
+    quote: "I lost over 20 pounds with the help of the team here. The community and guidance are unmatched!",
+  },
+]
 
 
-// export const trainers = [
-//   {
-//     name: "Alex Johnson",
-//     specialty: "Strength Training",
-//     image: "/images/trainers/alex.jpg",
-//     bio: "Certified strength coach with 8+ years of experience helping clients build muscle and boost performance.",
-//   },
-//   {
-//     name: "Brianna Lee",
-//     specialty: "Weight Loss",
-//     image: "/images/trainers/brianna.jpg",
-//     bio: "Expert in sustainable fat loss strategies and habit coaching tailored to individual lifestyles.",
-//   },
-//   {
-//     name: "Carlos Rivera",
-//     specialty: "Sports Performance",
-//     image: "/images/trainers/carlos.jpg",
-//     bio: "Athletic trainer focused on improving agility, power, and endurance for athletes of all levels.",
-//   },
-//   {
-//     name: "Dana White",
-//     specialty: "Rehabilitation",
-//     image: "/images/trainers/dana.jpg",
-//     bio: "Rehab specialist helping clients recover from injuries and regain functional movement safely.",
-//   },
-//   {
-//     name: "Ella Zhang",
-//     specialty: "Yoga & Mobility",
-//     image: "/images/trainers/ella.jpg",
-//     bio: "Yoga instructor and mobility expert passionate about helping people move pain-free and mindfully.",
-//   },
-//   {
-//     name: "Franklin Moore",
-//     specialty: "High-Intensity Training",
-//     image: "/images/trainers/franklin.jpg",
-//     bio: "Certified HIIT coach pushing clients to their peak with intense, effective training sessions.",
-//   },
-// ];
+export const trainers = [
+  {
+    name: "Alex Johnson",
+    specialty: "Strength Training",
+    image: "/images/trainers/alex.jpg",
+    bio: "Certified strength coach with 8+ years of experience helping clients build muscle and boost performance.",
+  },
+  {
+    name: "Brianna Lee",
+    specialty: "Weight Loss",
+    image: "/images/trainers/brianna.jpg",
+    bio: "Expert in sustainable fat loss strategies and habit coaching tailored to individual lifestyles.",
+  },
+  {
+    name: "Carlos Rivera",
+    specialty: "Sports Performance",
+    image: "/images/trainers/carlos.jpg",
+    bio: "Athletic trainer focused on improving agility, power, and endurance for athletes of all levels.",
+  },
+  {
+    name: "Dana White",
+    specialty: "Rehabilitation",
+    image: "/images/trainers/dana.jpg",
+    bio: "Rehab specialist helping clients recover from injuries and regain functional movement safely.",
+  },
+  {
+    name: "Ella Zhang",
+    specialty: "Yoga & Mobility",
+    image: "/images/trainers/ella.jpg",
+    bio: "Yoga instructor and mobility expert passionate about helping people move pain-free and mindfully.",
+  },
+  {
+    name: "Franklin Moore",
+    specialty: "High-Intensity Training",
+    image: "/images/trainers/franklin.jpg",
+    bio: "Certified HIIT coach pushing clients to their peak with intense, effective training sessions.",
+  },
+];
