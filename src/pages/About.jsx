@@ -117,7 +117,7 @@ export default function About() {
                   <div className="rounded-lg overflow-hidden h-48 shadow-[0_4px_10px_rgba(239,68,68,0.9)]">
                     <img
                       // src="src/images/beautiful-young-black-sportswoman-gym_152625-3449.jpg"
-                      src="src/images/WhatsApp Image 2025-05-23 at 15.01.50_99f1a8d0.jpg"
+                      src="/images/WhatsApp Image 2025-05-23 at 15.01.50_99f1a8d0.jpg"
                       alt="Gym History"
                       className="w-full h-full object-cover"
                     />
@@ -125,7 +125,7 @@ export default function About() {
                   <div className="rounded-lg overflow-hidden h-64 shadow-[0_4px_10px_rgba(255,255,255,0.9)]">
                     <img
                       // src="src/images/woman-gym-body-building_1303-5506.jpg"
-                      src="src/images/WhatsApp Image 2025-05-23 at 15.04.41_8fb50196.jpg"
+                      src="/images/WhatsApp Image 2025-05-23 at 15.04.41_8fb50196.jpg"
                       alt="Gym History"
                       className="w-full h-full object-cover"
                     />
@@ -135,14 +135,14 @@ export default function About() {
                   <div className="rounded-lg overflow-hidden h-64 shadow-[0_4px_10px_rgba(255,255,255,0.9)]">
                     <img
                       // src="src/images/strong-sportsman-lifting-heavy-dumbbell-smoke_136403-4217.jpg"
-                      src="src/images/WhatsApp Image 2025-05-23 at 15.04.39_3fe4e834.jpg"
+                      src="/images/WhatsApp Image 2025-05-23 at 15.04.39_3fe4e834.jpg"
                       alt="Gym History"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="rounded-lg overflow-hidden h-48 shadow-[0_4px_10px_rgba(239,68,68,0.9)]" >
                     <img
-                      src="src/images/WhatsApp Image 2025-05-23 at 15.01.50_e3ce31bf.jpg"
+                      src="/images/WhatsApp Image 2025-05-23 at 15.01.50_e3ce31bf.jpg"
                       // src="src/images/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg"
                       alt="Gym History"
                       className="w-full h-full object-cover  "

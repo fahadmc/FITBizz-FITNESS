@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 import { Dumbbell, Clock, Users, Award, ChevronLeft, ChevronRight } from "lucide-react"
-import img1 from "../images/GYM-02.jpg"
+import img1 from "/images/GYM-02.jpg"
 
 import PageTransition from "../components/PageTransition"
 import Navbar from "../components/Navbar"

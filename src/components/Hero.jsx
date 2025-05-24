@@ -2,10 +2,10 @@ import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import img1 from "../images/homepage.jpg";
-import img2 from "../images/homepage.2.jpg";
-import img3 from "../images/467345860_868626418786647_2557558075871522365_n.webp";
-import img4 from "../images/468525663_17891251626124910_2461844413795903866_n.jpg";
+import img1 from "/images/homepage.jpg";
+import img2 from "/images/homepage.2.jpg";
+import img3 from "/images/467345860_868626418786647_2557558075871522365_n.webp";
+import img4 from "/images/468525663_17891251626124910_2461844413795903866_n.jpg";
 // // import video1 from "../video/100546-video-720.mp4";
 // // import video2 from "../video/mixkit-52086-video-52086-hd-ready.mp4";
 // // import video3 from "../video/mixkit-52088-video-52088-hd-ready.mp4";

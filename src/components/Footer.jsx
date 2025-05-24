@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {  Instagram , ArrowRight } from "lucide-react";
-import timg1 from "../images/Threads-app-logo-white-png-transparent.png"
-import imgl from "../images/logofitbizz.png"
+import timg1 from "/images/Threads-app-logo-white-png-transparent.png"
+import imgl from "/images/logofitbizz.png"
 
 export default function Footer() {
   return (
@@ -119,12 +119,14 @@ export default function Footer() {
                 placeholder="Your email address"
                 className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-red-500"
               />
-              <button
+           <Link to="/">
+           <button
                 type="submit"
                 className="w-full bg-red-500 hover:bg-red-600 text-white py-2.5 rounded-lg font-medium transition-colors duration-300"
               >
                 Subscribe
               </button>
+           </Link>   
             </form>
           </motion.div>
         </div>
