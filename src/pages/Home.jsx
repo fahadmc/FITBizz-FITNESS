@@ -66,7 +66,7 @@ export default function Home() {
           </>
         }
         description="Join FITBIZZ FITNESS — the ultimate fitness destination for strength, endurance, and lifestyle change."
-        image="/images/hero-bg.jpg"
+        // image="/images/hero-bg.jpg"
         overlay = "from-black "
       />
 

@@ -60,8 +60,8 @@ export default function About() {
       <Hero
         title="About "
         subtitle="OUR STORY"
-        description="Learn about our journey, our mission, and the team behind POWERGYM."
-        image="/images/about-hero.jpg"
+        // description="Learn about our journey, our mission, and the team behind POWERGYM."
+        // image="/images/about-hero.jpg"
         height="h-[100vh]"
       />
 
